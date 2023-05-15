@@ -1,0 +1,33 @@
+body{
+    background-image: url('turtle2.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}/*The Background*/
+
+.navi a{
+  float:right;
+  color: #123456;
+  text-align:right;
+  padding:20px 25px;
+  text-decoration: aqua;
+  font-size:medium;
+}/*Adding styles to the navigation bar*/
+
+.navi{
+    overflow: hidden;
+    background-color:whitesmoke;
+    width: auto;
+    min-width: auto;
+}/*The top navigation bar*/
+
+.navi a:active{
+    background-color: blueviolet;
+}/*Active efect*/
+
+.navi>.Home{
+    background-color: blueviolet;
+}/*The current page*/
+.navi :hover{
+    color: rgb(44, 197, 158);
+}
